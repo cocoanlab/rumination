@@ -2,5 +2,6 @@ Codes and datasets for the <br>"A Dorsomedial Prefrontal Cortex-based Dynamic Fu
 
 ## Dependencies
 All the analyses are run based on
-https://github.com/cocoanlab/CocoanCore and https://github.com/canlab/CanlabCore
-
+https://github.com/cocoanlab/CocoanCore <br>
+https://github.com/canlab/CanlabCore <br> 
+https://github.com/spm/spm12
