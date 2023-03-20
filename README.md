@@ -22,7 +22,7 @@ https://github.com/spm/spm12
     Parcellation Information. <br>
     (also could found in https://github.com/cocoanlab/cocoanCORE/Canonical_brains/Brainnetome) <br><br>
 
-"dMPFCmodel" & "dmpfc_based_connectivity_model.nii": <br>
+"dMPFCmodel.mat" & "dmpfc_based_connectivity_model.nii": <br>
     Final (full) model in mat & nifti format. <br><br>
 
 "negative_weights.nii" & "positive_weights.nii": <br>
