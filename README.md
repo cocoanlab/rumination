@@ -1,4 +1,4 @@
-Codes and datasets for the "A DORSOMEDIAL PREFRONTAL CORTEX-BASED DYNAMIC FUNCTIONAL CONNECTIVITY MODEL OF RUMINATION", Nat. Comm., 2023
+Codes and datasets for the <br>"A Dorsomedial Prefrontal Cortex-based Dynamic Functional Connectivity Model of Rumination", <br> Nat. Comm., 2023
 
 ## Dependencies
 All the analyses are run based on
