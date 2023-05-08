@@ -12,7 +12,10 @@ https://github.com/spm/spm12
 ### data
 "Datasets.mat": <br>
     Each struct "Study1", "Study2", and ""Study3" holds DCC variance data from 
-    all DMN seeds, and also RRS subscales. <br><br>
+    all DMN seeds, and also RRS subscales. <br>
+    Struct "Supp" holds DCC variance data from "pre" and "post" movie run based on the dMPFC seed. <br>
+    It also includes RRS subscales, "alertness" and "self-relevance" ratings which were reported in <br>
+    Supplementary Figure 6. <br><br>
 
 "summaries.mat": <br>
     Summary statistiscs and  information comprising model <br>

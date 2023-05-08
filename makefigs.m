@@ -132,12 +132,12 @@ clear;clc
 load('dMPFCmodel.mat') % load model
 load('summaries.mat') % load model
 
-idx84       = out2.beta ~= 0;
-weights84   = out2.beta(idx84);
-LSN84       = out2.large_scale_network_brainnetomeprovide(idx84);
-names84     = out2.region_names(idx84);
-meanDCC84   = out2.mean_DCC(idx84);
-idx21       = (out2.delta_r_fast > 0) & (out2.delta_r_pico > 0);
+idx84       = summaries.beta ~= 0;
+weights84   = summaries.beta(idx84);
+LSN84       = summaries.large_scale_network_brainnetomeprovide(idx84);
+names84     = summaries.region_names(idx84);
+meanDCC84   = summaries.mean_DCC(idx84);
+idx21       = (summaries.delta_r_study2 > 0) & (summaries.delta_r_study3 > 0);
 idx21_84    = idx21(idx84);
 
 [LSN84, sortidx] = sort(LSN84);
@@ -205,6 +205,8 @@ circos_multilayer_yc(Amtrx2, 'group', gidx2, 'each_patch_color', cols2, 'region_
     'text_color', texcols(idx21_85, :), 'add_layer', layerinfo2)
 set(gca, 'xlim', [-2 2], 'ylim', [-2 2])
 set(gcf, 'Position', [470   301   539   496])
+
+
 
 %% Additional notes.
 %
